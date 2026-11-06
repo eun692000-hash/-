@@ -1,13 +1,8 @@
 {
-  "name": "oliveprice-search",
+  "name": "oliveprice-shared",
   "version": "1.0.0",
   "private": true,
-  "description": "OlivePrice frontend with Olive Young product search bridge",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "express": "^4.21.2",
-    "playwright": "1.65.0"
-  }
+  "description": "Shared OlivePrice product and price history API",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "express": "4.21.2" }
 }
