@@ -1,0 +1,13 @@
+{
+  "name": "oliveprice-search",
+  "version": "1.0.0",
+  "private": true,
+  "description": "OlivePrice frontend with Olive Young product search bridge",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "playwright": "^1.52.0"
+  }
+}

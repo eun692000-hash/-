@@ -1,0 +1,5 @@
+[build]
+  publish = "."
+
+# Netlify는 정적 화면만 제공하고, 검색 API는 api-config.js에 지정한
+# 별도 Node.js 서버(Render 등)에서 처리합니다.
